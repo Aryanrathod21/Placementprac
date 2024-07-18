@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="basicform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="">Select a city</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Bhavnagar">Bhavnagar</option>
+                <option value="Mahuva">Mahuva</option>
+            </select>   
+            
+            <button type="submit">Submit</button> 
+        </form>
+        
+        <div id="result"></div>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
